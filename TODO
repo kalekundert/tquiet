@@ -1,0 +1,26 @@
+- Create a new GitHub repository:
+
+  https://github.com/new
+
+  Repository name: tquiet
+
+  $ git remote add origin git@github.com:kalekundert/tquiet.git
+  $ git push -u origin master
+
+- Create a "pending" trusted publisher:
+
+  https://pypi.org/manage/account/publishing/
+
+  PyPI project name: tquiet
+  Owner:             kalekundert
+  Repository name:   tquiet
+  Workflow name:     release.yml
+
+- Add Codecov token to GitHub:
+
+  https://app.codecov.io/gh/kalekundert/tquiet/new
+  https://github.com/kalekundert/tquiet/settings/secrets/actions/new
+
+- Build the documentation:
+
+  https://app.readthedocs.org/dashboard/import/
