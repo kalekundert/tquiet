@@ -2,7 +2,7 @@
 Mimic the `tqdm` progress bar interface, but don't actually display anything.
 """
 
-__version__ = '0.0.0'
+__version__ = '0.1.0'
 
 from typing import TypeAlias, Callable, Iterable
 from contextlib import contextmanager
